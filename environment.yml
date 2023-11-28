@@ -4,4 +4,9 @@ channels:
 dependencies:
   - python=3.9
   - ipykernel
+  - pip=21.0.1
+  - pip:
+      - matplotlib
+      - tensorflow
+      - tfds-nightly
 prefix: /Users/finnj00/opt/anaconda3/envs/mnistenv
